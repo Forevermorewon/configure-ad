@@ -28,7 +28,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 - Microsoft Azure VM Enviornment
 - Configure Domain Controller
-- Install Active Directory User and Groups
+- Active Directory User and Groups
 - Step 4
 
 <h2>Deployment and Configuration Steps</h2>
@@ -168,7 +168,194 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 
 
-**Step 3: Install Active Directory**
+**Step 3: Active Directory Users and Groups**
+
+     3.1 Login to DC-1 and install Active Directory Domain Services
+
+        From Manage, select roles and Features.  Then on server selection chose Active Directory Domain
+        
+
+![image](https://github.com/Forevermorewon/configure-ad/assets/145600604/d4e20c9d-adc1-4f71-a2de-94737fe8ba5a)
+
+
+
+
+
+
+
+    3.2 Promote as a DC: Set up a new forest as mydomain.com
+
+
+
+            A. Promote
+            
+
+![image](https://github.com/Forevermorewon/configure-ad/assets/145600604/8e628819-0c0e-4e36-a215-266e03bd6775)
+
+
+
+
+
+
+
+
+
+            B. Set up Forest
+
+            
+
+![image](https://github.com/Forevermorewon/configure-ad/assets/145600604/b254b747-3951-401d-b253-413c00782d75)
+
+
+
+
+
+
+
+
+
+
+
+            C. Install and Restart
+
+
+
+![image](https://github.com/Forevermorewon/configure-ad/assets/145600604/25d30a93-d463-45a9-964d-fec9232c1ba5)
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+            D. Login to the DC as mydomain.com\Labuser
+
+
+
+![image](https://github.com/Forevermorewon/configure-ad/assets/145600604/cc01484a-4c9e-46aa-ba02-d5357bac64e4)
+
+
+        3.3 Users and Computers
+            
+            A. Select Tools and then active Directory Users and Computers.
+
+            
+
+![image](https://github.com/Forevermorewon/configure-ad/assets/145600604/9ae63276-eaa3-49f2-abb3-33738e49fac3)
+
+
+
+
+
+
+
+            B. Create organizational Unit
+
+
+
+![image](https://github.com/Forevermorewon/configure-ad/assets/145600604/0652eb7d-aef5-4489-a758-2d7c3916f80e)
+
+
+
+
+
+
+![image](https://github.com/Forevermorewon/configure-ad/assets/145600604/9c76924f-35bf-4f55-8c99-499f2398bfc4)
+
+
+
+
+
+![image](https://github.com/Forevermorewon/configure-ad/assets/145600604/88cc27a7-3b22-4558-a6f4-ca480e02c5b3)
+
+
+
+
+
+
+![image](https://github.com/Forevermorewon/configure-ad/assets/145600604/2f2a2cb6-87dd-4433-8765-9695e1f6731b)
+
+
+
+
+
+
+
+![image](https://github.com/Forevermorewon/configure-ad/assets/145600604/efb4b2eb-e9f8-4b1e-8f14-8b1aa2c8f096)
+
+
+
+
+
+
+
+![image](https://github.com/Forevermorewon/configure-ad/assets/145600604/bd4b34db-394f-45a5-9580-e2bfe4d6f387)
+
+
+
+
+
+
+![image](https://github.com/Forevermorewon/configure-ad/assets/145600604/4d0b7b7e-73d6-4aac-9bb0-4e5506543aef)
+
+
+
+
+
+
+
+
+In "member of" tab select Add... and enter Check names.  Select Domain Admins.
+
+
+
+
+![image](https://github.com/Forevermorewon/configure-ad/assets/145600604/66d805f1-114a-45e7-9a10-88c416ab02ce)
+
+
+
+
+
+
+
+![image](https://github.com/Forevermorewon/configure-ad/assets/145600604/95a16c85-9978-49f5-bcc7-578bbca64db2)
+
+
+
+
+
+
+
+![image](https://github.com/Forevermorewon/configure-ad/assets/145600604/60b1e837-eba4-43f3-a9d8-945acd640383)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     
 
