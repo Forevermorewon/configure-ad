@@ -387,7 +387,93 @@ _ADMIN
 
 
 
+**Step 4: DNS set up for Client machine**
 
+
+![image](https://github.com/Forevermorewon/configure-ad/assets/145600604/27b26b40-ffb8-4069-bf17-5a05be654e77)
+
+
+
+
+
+
+
+        4.1 From Azure Navigate to Client-1 Networking and Change client 1 Virtual NIC
+
+
+                A. Select Client-1
+
+
+![image](https://github.com/Forevermorewon/configure-ad/assets/145600604/09eb228c-ed2a-4e3a-a32b-e6f019128adf)
+
+
+
+
+
+
+
+                B. Go to Networking and select Client Network Interface
+
+
+                
+![image](https://github.com/Forevermorewon/configure-ad/assets/145600604/a5adceb5-fd35-46c8-883b-0179b679dde6)
+
+
+
+
+
+
+
+
+
+
+
+
+                C. Select DNS
+
+![image](https://github.com/Forevermorewon/configure-ad/assets/145600604/064e698b-aea7-4a6e-b53e-8813450d72ff)
+
+
+
+
+
+
+
+
+
+
+
+                 D. Select Custom and Input DC-1 Private IP Address and SAVE
+
+
+![image](https://github.com/Forevermorewon/configure-ad/assets/145600604/800c51dc-e02e-4af9-9de7-985bb95c8817)
+
+
+
+                  E. Return to VM Client-1 and restart
+
+            
+
+
+![image](https://github.com/Forevermorewon/configure-ad/assets/145600604/3cc17e74-578e-487a-9ccc-d75666222589)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+               
 
 
 
