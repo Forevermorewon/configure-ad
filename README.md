@@ -258,6 +258,8 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
             B. Create organizational Unit
 
+                Slecet mydomain.com and right click new Organizational Unit
+
 
 
 ![image](https://github.com/Forevermorewon/configure-ad/assets/145600604/0652eb7d-aef5-4489-a758-2d7c3916f80e)
@@ -267,10 +269,21 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 
 
+            C. Create _EMPLOYEES and _ADMIN units
+
+            
+
+_EMPLOYEES
+
+
 ![image](https://github.com/Forevermorewon/configure-ad/assets/145600604/9c76924f-35bf-4f55-8c99-499f2398bfc4)
 
 
 
+
+
+
+_ADMIN
 
 
 ![image](https://github.com/Forevermorewon/configure-ad/assets/145600604/88cc27a7-3b22-4558-a6f4-ca480e02c5b3)
@@ -280,30 +293,21 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 
 
+
+            D. Now we will create Users
+
+            Right Click _ADMINS and select New Users
+
+            
 ![image](https://github.com/Forevermorewon/configure-ad/assets/145600604/2f2a2cb6-87dd-4433-8765-9695e1f6731b)
 
 
 
 
 
+            E. FIll in the appropriate informations and select next
 
-
-![image](https://github.com/Forevermorewon/configure-ad/assets/145600604/efb4b2eb-e9f8-4b1e-8f14-8b1aa2c8f096)
-
-
-
-
-
-
-
-![image](https://github.com/Forevermorewon/configure-ad/assets/145600604/bd4b34db-394f-45a5-9580-e2bfe4d6f387)
-
-
-
-
-
-
-![image](https://github.com/Forevermorewon/configure-ad/assets/145600604/4d0b7b7e-73d6-4aac-9bb0-4e5506543aef)
+![image](https://github.com/Forevermorewon/configure-ad/assets/145600604/cee1344c-c7d6-4eeb-a4c2-53042ae91b2c)
 
 
 
@@ -312,7 +316,33 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 
 
-In "member of" tab select Add... and enter Check names.  Select Domain Admins.
+            F. Inout password and select options appropriate to your organization
+                Select next review and finish.
+
+
+
+![image](https://github.com/Forevermorewon/configure-ad/assets/145600604/ac8cc12c-41f0-4c3d-b956-173882418d26)
+
+
+
+
+
+![image](https://github.com/Forevermorewon/configure-ad/assets/145600604/e0a464cf-c923-437b-bd55-84847dc8093b)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+In "member of" tab then select Add... and enter Check names.  Select Domain Admins.
 
 
 
