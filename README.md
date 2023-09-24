@@ -305,7 +305,7 @@ _ADMIN
 
 
 
-            E. FIll in the appropriate informations and select next
+            E. Fill in the appropriate informations and select next
 
 ![image](https://github.com/Forevermorewon/configure-ad/assets/145600604/cee1344c-c7d6-4eeb-a4c2-53042ae91b2c)
 
@@ -316,8 +316,8 @@ _ADMIN
 
 
 
-            F. Inout password and select options appropriate to your organization
-                Select next review and finish.
+            F. Input password and select options appropriate to your organization
+                Select next and review your users information.  Select finish to create profile.
 
 
 
@@ -341,21 +341,13 @@ _ADMIN
 
 
 
+                G. Now we will add user group privliges to the profile.  Right click the user in _ADMINS
+                    Select properties.  Now select the "member of" tab then chose Add... and enter Domain. Next select Check names.  Select Domain Admins.
+                    Apply and ok.  Now you profile has been given user privliges of damain admins.
 
-In "member of" tab then select Add... and enter Check names.  Select Domain Admins.
+                    
 
-
-
-
-![image](https://github.com/Forevermorewon/configure-ad/assets/145600604/66d805f1-114a-45e7-9a10-88c416ab02ce)
-
-
-
-
-
-
-
-![image](https://github.com/Forevermorewon/configure-ad/assets/145600604/95a16c85-9978-49f5-bcc7-578bbca64db2)
+![image](https://github.com/Forevermorewon/configure-ad/assets/145600604/d60cfeaf-8756-4970-b4c3-50910589e1f5)
 
 
 
@@ -363,7 +355,38 @@ In "member of" tab then select Add... and enter Check names.  Select Domain Admi
 
 
 
-![image](https://github.com/Forevermorewon/configure-ad/assets/145600604/60b1e837-eba4-43f3-a9d8-945acd640383)
+
+
+![image](https://github.com/Forevermorewon/configure-ad/assets/145600604/415f193d-557e-4cb4-848e-ced5560a698f)
+
+
+
+
+
+
+
+
+
+![image](https://github.com/Forevermorewon/configure-ad/assets/145600604/9f701855-9e41-4be9-8361-50a4c2048361)
+
+
+
+
+
+
+
+
+
+![image](https://github.com/Forevermorewon/configure-ad/assets/145600604/b5efad77-fc81-4a70-989d-bb808622c83e)
+
+
+
+
+
+
+
+
+
 
 
 
