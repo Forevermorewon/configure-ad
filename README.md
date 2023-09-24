@@ -29,7 +29,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 - Microsoft Azure VM Enviornment
 - Configure Domain Controller
 - Active Directory User and Groups
-- Step 4
+- DNS set up for Client machine
 
 <h2>Deployment and Configuration Steps</h2>
 
