@@ -28,12 +28,14 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 - Microsoft Azure VM Enviornment
 - Configure Domain Controller
-- Step 3
+- Install Active Directory User and Groups
 - Step 4
 
 <h2>Deployment and Configuration Steps</h2>
 
-**Step 1: Verify Azure VM Typology**
+
+**Step 1: Set up Microsoft Azure enviornment**
+
 
 
 ![image](https://github.com/Forevermorewon/configure-ad/assets/145600604/64d43699-5a3a-48ac-916d-0e0128d32c07)
@@ -47,8 +49,10 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 
 
+    Verify Typology of the Microsoft Enviornment.
+    Two VM Networks are shown in the same resource group.  Client-1 and DC-1 are shown below. 
+    Client one will host windows 10 and DC-1 will host the Domain Controller.
 
-Two VM Networks are shown in the same resource group.  Client-1 and DC-1 are shown below.  Client one will host windows 10 and DC-1 will host the Domain Controller.
 
 
 
@@ -64,10 +68,9 @@ Two VM Networks are shown in the same resource group.  Client-1 and DC-1 are sho
 
 
 
-**Step 2:  Set the Domain Controller's NIC Private IP address to be static**
-
-Select DC-1 from the home page
-
+**Step 2:  Configure Domain Controller**
+  
+    2.1 Select DC-1 from the home page
 
 ![image](https://github.com/Forevermorewon/configure-ad/assets/145600604/6b2ae01f-2fb7-48bd-b53e-196412a0f781)
 
@@ -78,8 +81,7 @@ Select DC-1 from the home page
 
 
 
-Select Networking
-
+    2.3 Select Networking
 
 ![image](https://github.com/Forevermorewon/configure-ad/assets/145600604/03a25e05-525b-42f0-8d20-dd660ee94a45)
 
@@ -88,8 +90,7 @@ Select Networking
 
 
 
-Select Network Interface
-
+    2.4 Select Network Interface
 
 ![image](https://github.com/Forevermorewon/configure-ad/assets/145600604/b7aa3f2e-e58c-44dd-b4df-c091bf637092)
 
@@ -97,14 +98,13 @@ Select Network Interface
 
 
 
-Select IP configurations
-
+    2.5 Select IP configurations
 
 ![image](https://github.com/Forevermorewon/configure-ad/assets/145600604/c6fb005b-6bde-4bba-8db1-71fc3eac76e3)
 
 
 
-Select IP config
+    2.6 Select IP config
 
 ![image](https://github.com/Forevermorewon/configure-ad/assets/145600604/5cc44eae-5c7e-48ec-8fdc-7d027753e59c)
 
@@ -115,9 +115,99 @@ Select IP config
 
 
 
-Change the assignment to Static and do not forget to save ;)
+    2.7 Change the allocation to Static and do not forget to save ;)
 
 ![image](https://github.com/Forevermorewon/configure-ad/assets/145600604/95465be4-b757-415b-a64c-9be772532f59)
+
+
+
+
+
+
+
+
+
+
+</p>
+<br />
+
+    2.8  Echo request to confirm connection
+
+
+      A. Configure DC-1 Firewall inbound rules set to YES and allow ICMPv4 protocol Echo request
+
+![image](https://github.com/Forevermorewon/configure-ad/assets/145600604/0577b08b-7ed6-43f9-a660-9cf0b406020f)
+
+
+
+
+
+
+
+
+
+
+
+      B. Ping DC-1 from Client-1 remote desktop using the command ping -t followed by the IP address. 
+
+![image](https://github.com/Forevermorewon/configure-ad/assets/145600604/11a32cc4-0183-4bfb-87a2-a0f6584d7285)
+
+
+
+
+
+
+
+      C. After confirmation of ping is complete simply input ctrl+c.
+
+![image](https://github.com/Forevermorewon/configure-ad/assets/145600604/720bda4b-6dd6-4932-8f66-0f85c9629975)
+
+
+
+
+
+
+
+**Step 3: Install Active Directory**
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
