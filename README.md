@@ -450,12 +450,100 @@ _ADMIN
 
 
 
+
+
+
+
+
+
+
                   E. Return to VM Client-1 and restart
 
             
 
 
 ![image](https://github.com/Forevermorewon/configure-ad/assets/145600604/3cc17e74-578e-487a-9ccc-d75666222589)
+
+
+
+
+
+            4.2 Join Client-1 to the Domain
+            
+
+                A. Log In to Client-1 and Right Click the Start Menu.  Select System
+
+
+                
+![image](https://github.com/Forevermorewon/configure-ad/assets/145600604/b352436c-8a76-4ff1-b85f-fce359877fb8)
+
+
+
+
+
+
+                B. Select rename this PC (advanced)
+
+
+![image](https://github.com/Forevermorewon/configure-ad/assets/145600604/8f76669c-7e17-4242-94e2-67756edbf45e)
+
+
+
+
+
+
+
+                C. Select Change... and Domain.  Enter mydomain.com and OK.
+
+![image](https://github.com/Forevermorewon/configure-ad/assets/145600604/68540539-fbe5-4580-97e2-e93e47b3bf81)
+
+
+
+
+
+
+                D. Enter: mydomain.com\JANE_ADMIN and password.  OK.  RESTRT.
+
+
+
+![image](https://github.com/Forevermorewon/configure-ad/assets/145600604/0bd246aa-9193-422b-8d9f-d57c404eb2b4)
+
+
+
+                
+
+
+            4.3 Add Groups to remote log in for Client-1
+                This will allow all in goup Domain Users to log into Client-1
+
+
+![image](https://github.com/Forevermorewon/configure-ad/assets/145600604/78e7071f-a07f-4cdc-847e-b84143fa417e)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            
+
+
+
+
+
 
 
 
@@ -563,14 +651,5 @@ _ADMIN
 
 
 
-
-
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-In Step one we confirm that our Microsoft Azure enviornment is set up correctly.
-</p>
-<br />
 
 
